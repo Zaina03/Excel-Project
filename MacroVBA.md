@@ -1,21 +1,21 @@
-Sub transaction_count()
-    Dim currentValue As Boolean
-    currentValue = Sheets("Monthly").Range("E13").Value
-    currentValue = Sheets("Daily").Range("E37").Value
-    currentValue = Sheets("DOW").Range("E14").Value
-    currentValue = Sheets("Time Distribution").Range("E12").Value   
-If currentValue = False Then
+        Sub transaction_count()
+        Dim currentValue As Boolean
+        currentValue = Sheets("Monthly").Range("E13").Value
+        currentValue = Sheets("Daily").Range("E37").Value
+        currentValue = Sheets("DOW").Range("E14").Value
+        currentValue = Sheets("Time Distribution").Range("E12").Value   
+        If currentValue = False Then
         Sheets("Monthly").Range("E13").Value = True
         Sheets("Daily").Range("E37").Value = True
         Sheets("DOW").Range("E14").Value = True
         Sheets("Time Distribution").Range("E12").Value = True
-Else
+        Else
         Sheets("Monthly").Range("E13").Value = False
         Sheets("Daily").Range("E37").Value = False
         Sheets("DOW").Range("E14").Value = False
         Sheets("Time Distribution").Range("E12").Value = False
-End If
-End Sub
+        End If
+        End Sub
 
 Sub quantity_sold()
     Dim currentValue As Boolean
