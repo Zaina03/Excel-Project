@@ -1,2 +1,2 @@
-# Excel_Project_Coffee_Shop
-Excel Project : Coffee Shop Sales &amp; Revenue
+# Excel-Project-Coffee-Shop
+Excel Project: Coffee Shop Sales &amp; Revenue
